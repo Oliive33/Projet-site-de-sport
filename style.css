@@ -591,3 +591,14 @@ label:nth-child(5) {
     border-top: 1px dashed #000;
   }
 }
+@media screen and (max-width: 450px) {
+  #contact {
+    width: 95%;
+  }
+  form {
+    width: 80%;
+  }
+  .form-btn {
+    width: 200px;
+  }
+}
